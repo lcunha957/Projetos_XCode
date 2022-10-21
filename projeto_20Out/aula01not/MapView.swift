@@ -9,6 +9,7 @@ import SwiftUI
 import MapKit
 
 struct MapVIew: View {
+    @State var tracking:MapUserTrackingMode = .follow
     @State private  var region =
     MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude:-22.9022474 , longitude: -47.0691744),
@@ -16,7 +17,10 @@ struct MapVIew: View {
 )
     
 var body: some View{
-  Map(coordinateRegion: $region)
+  Map(coordinateRegion: $region,
+      interactionModes: MapInteractionModes.all,
+      showUserLocation: true,
+      userTrackingMode: $tracking)
 }
 
 }

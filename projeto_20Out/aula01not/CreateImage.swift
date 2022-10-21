@@ -12,7 +12,7 @@ struct CreateImage: View{
        Image("00fd7026-e6ca-4b1a-a05c-16e074166f3f")
         .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
         .overlay{
-            Circle().stroke(.gray, lineWidth: 4)
+            Circle().stroke(Color.gray, lineWidth: 4)
         }
         .shadow(radius:7)
     }
