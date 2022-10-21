@@ -15,6 +15,7 @@
 		E1D9EEBB2902235300555575 /* aula01notUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D9EEBA2902235300555575 /* aula01notUITests.swift */; };
 		E1D9EEC92902288D00555575 /* aula01not in Resources */ = {isa = PBXBuildFile; fileRef = E1D9EEC82902288D00555575 /* aula01not */; };
 		E1D9EECB290228C900555575 /* CreateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D9EECA290228C900555575 /* CreateImage.swift */; };
+		E1D9EECF29022A8300555575 /* MapVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D9EECE29022A8300555575 /* MapVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E1D9EEBC2902235300555575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1D9EEC82902288D00555575 /* aula01not */ = {isa = PBXFileReference; lastKnownFileType = folder; name = aula01not; sourceTree = "<group>"; };
 		E1D9EECA290228C900555575 /* CreateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateImage.swift; sourceTree = "<group>"; };
+		E1D9EECE29022A8300555575 /* MapVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E1D9EEA12902235300555575 /* Assets.xcassets */,
 				E1D9EEA62902235300555575 /* Info.plist */,
 				E1D9EEA32902235300555575 /* Preview Content */,
+				E1D9EECE29022A8300555575 /* MapVIew.swift */,
 			);
 			path = aula01not;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1D9EEA02902235200555575 /* ContentView.swift in Sources */,
+				E1D9EECF29022A8300555575 /* MapVIew.swift in Sources */,
 				E1D9EECB290228C900555575 /* CreateImage.swift in Sources */,
 				E1D9EE9E2902235200555575 /* aula01notApp.swift in Sources */,
 			);
