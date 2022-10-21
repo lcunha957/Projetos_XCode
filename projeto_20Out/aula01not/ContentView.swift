@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Alô turma")
-            .padding()
-            .font(.title)
-            .foregroundColor(.green)
+    var body: some View
+                {
+        VStack(alignment: .leading){
+            Text("Cotuca")
+                .font(.title)
+            HStack{
+                Text("Culto a Ciência")
+                    .font(.subheadline)
+                Spacer()
+                Text("Botafogo")
+                    .font(.subheadline)
+            }
+        }
+        .padding()
+            
     }
 }
 
