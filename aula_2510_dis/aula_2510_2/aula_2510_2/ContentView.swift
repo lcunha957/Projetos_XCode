@@ -20,17 +20,19 @@ struct ContentView: View {
             HStack {
                 VStack{
                 Rectangle()
-                    Text("Match this color")
+                    .foregroundColor(Color(red:rTarget, green:gTarget, blue:bTarget, opacity: 1.0))
+                    Text("Match this color").font(.caption)
                 }.frame(height:100)
                 VStack{
                     Rectangle()
+                        .foregroundColor(Color(red:rGuess, green:gGuess, blue:bGuess, opacity: 1.0))
                     HStack{
                         Text("R: xxx")
                         Text("G: xxx")
                         Text("B: xxx")
-                    }
-                }.font(.caption)
-            }.frame(height:100)
+                    }.font(.caption)
+                }.frame(height:100)
+            }
             Text("Clique Aqui")
             VStack{
                 Text("Red Slider")
@@ -43,7 +45,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-        
+        ContentView(rGuess:0.5, gGuess: 0.5, bGuess: 0.5)
+          
     }
 }
