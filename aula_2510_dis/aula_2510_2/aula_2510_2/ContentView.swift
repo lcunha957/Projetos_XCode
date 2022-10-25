@@ -29,19 +29,16 @@ struct ContentView: View {
                     HStack{
                         Text("R: \(Int(rGuess*255.0))")
                         Text("G: \(Int(gGuess*255.0))" )
-                        Text("B: \(Int(bGuess*255.0))")
+                        Text("B: \(Int(rGuess*255.0))")
                     }.font(.caption)
                 }.frame(height:100)
             }
             Text("Clique Aqui")
             VStack{
-                HStack{
-                    Text("0").foregroundColor(.red)
-                    Slider(value:$rGuess)
-                    Text("255").foregroundColor(.red)
-                }
-                Text("Green Slider")
-                Text("Blue Slider")
+                ColorSlider(value: $rGuess, textColor: .red)
+                ColorSlider(value: $gGuess, textColor: .green)
+                ColorSlider(value: $bGuess, textColor: .blue)
+               
             }
         }.padding()
     }
@@ -51,5 +48,18 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(rGuess:0.5, gGuess: 0.5, bGuess: 0.5)
           
+    }
+}
+
+struct ColorSlider: View {
+    @Binding var value: Double
+    var textColor: Color
+    
+    var body: some View {
+        HStack{
+            Text("0").foregroundColor(textColor)
+            Slider(value:$value)
+            Text("255").foregroundColor(textColor)
+        }
     }
 }
