@@ -9,13 +9,34 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            HStack {
+                VStack{
+                Rectangle()
+                    Text("Match this color")
+                }.frame(height:100)
+                VStack{
+                    Rectangle()
+                    HStack{
+                        Text("R: xxx")
+                        Text("G: xxx")
+                        Text("B: xxx")
+                    }
+                }.font(.caption)
+            }.frame(height:100)
+            Text("Clique Aqui")
+            VStack{
+                Text("Red Slider")
+                Text("Green Slider")
+                Text("Blue Slider")
+            }
+        }.padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        
     }
 }
