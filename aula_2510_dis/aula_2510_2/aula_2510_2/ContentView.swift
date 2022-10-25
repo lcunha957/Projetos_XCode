@@ -48,8 +48,13 @@ struct ContentView: View {
             
             Button(action:{
                 print("alo")
+                self.showAlert = true
             }){
             Text("Clique Aqui")
+            }
+            .alert(isPresented: $showAlert){
+                Alert(title: Text("Seu placar"),
+                      message: Text("\(computeScore())"))
             }
             VStack{
                 ColorSlider(value: $rGuess, textColor: .red)
@@ -64,6 +69,8 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(rGuess:0.5, gGuess: 0.5, bGuess: 0.5)
+            //.previewInterfaceOrientation(.portraitUpsideDown)
+            //.previewLayout(.fixed(width: 568, height:320))
           
     }
 }
