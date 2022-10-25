@@ -14,6 +14,9 @@ struct ContentView: View {
     @State var rGuess: Double
     @State var gGuess: Double
     @State var bGuess: Double
+    @State var showAlert = false
+    //@State var teste: Double
+    
     
     // cria função pra calcular o score pra conseguir advinhar a cor
     func computeScore() -> Int{
@@ -42,7 +45,12 @@ struct ContentView: View {
                     }.font(.caption)
                 }.frame(height:100)
             }
+            
+            Button(action:{
+                print("alo")
+            }){
             Text("Clique Aqui")
+            }
             VStack{
                 ColorSlider(value: $rGuess, textColor: .red)
                 ColorSlider(value: $gGuess, textColor: .green)
