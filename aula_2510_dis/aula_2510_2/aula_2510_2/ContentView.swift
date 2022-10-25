@@ -27,15 +27,19 @@ struct ContentView: View {
                     Rectangle()
                         .foregroundColor(Color(red:rGuess, green:gGuess, blue:bGuess, opacity: 1.0))
                     HStack{
-                        Text("R: xxx")
-                        Text("G: xxx")
-                        Text("B: xxx")
+                        Text("R: \(Int(rGuess*255.0))")
+                        Text("G: \(Int(gGuess*255.0))" )
+                        Text("B: \(Int(bGuess*255.0))")
                     }.font(.caption)
                 }.frame(height:100)
             }
             Text("Clique Aqui")
             VStack{
-                Text("Red Slider")
+                HStack{
+                    Text("0").foregroundColor(.red)
+                    Slider(value:$rGuess)
+                    Text("255").foregroundColor(.red)
+                }
                 Text("Green Slider")
                 Text("Blue Slider")
             }
