@@ -48,9 +48,10 @@ struct ContentView: View {
             
             Button(action:{
                 print("alo")
-                self.showAlert = true
+                self.showAlert.toggle()
             }){
-            Text("Clique Aqui")
+            Text("Show")
+               
             }
             .alert(isPresented: $showAlert){
                 Alert(title: Text("Seu placar"),
