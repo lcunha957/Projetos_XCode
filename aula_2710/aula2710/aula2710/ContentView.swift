@@ -23,7 +23,31 @@ struct ContentView: View {
             .frame(width: 300, height: 300)
             .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
             .overlay(Circle().stroke(Color.white, lineWidth: 4))
-       }
+            .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+            .onTapGesture {
+                self.shouldPresentActionScheet = true
+            }
+            .sheet(isPresented: $shouldPresentImagePicker){
+                // acoes a serem feiras
+            }
+            .actionSheet(isPresented: $shouldPresentActionScheet){
+             () -> ActionSheet in
+                ActionSheet(title: <#T##Text#>("Modo de escolha"), message:Text("Por favor escolha um método para mudar a imagem"),
+                            buttons: [ActionSheet.Button.default(Text("Camera"), action: {
+                                self.shouldPresentImagePicker = true
+                                self.shouldPresentCamera = true
+                               }),
+                            ActionSheet.Button.default(Text("Biblioteca de fotos"), action: {
+                                self.shouldPresentImagePicker = true
+                                self.shouldPresentCamera = false
+                            }),
+                            ActionSheet.Button.cancel()
+                            
+                ])
+            }
+        
+    }
+            
 }
 
 struct ContentView_Previews: PreviewProvider {
