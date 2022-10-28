@@ -13,6 +13,7 @@
 		E1812129290B5D0600611E10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1812128290B5D0600611E10 /* Preview Assets.xcassets */; };
 		E1812134290B5D0600611E10 /* aula2710Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1812133290B5D0600611E10 /* aula2710Tests.swift */; };
 		E181213F290B5D0600611E10 /* aula2710UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181213E290B5D0600611E10 /* aula2710UITests.swift */; };
+		E181214D290B65B300611E10 /* SUImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181214C290B65B300611E10 /* SUImagePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E181213A290B5D0600611E10 /* aula2710UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aula2710UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E181213E290B5D0600611E10 /* aula2710UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aula2710UITests.swift; sourceTree = "<group>"; };
 		E1812140290B5D0600611E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E181214C290B65B300611E10 /* SUImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUImagePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				E1812121290B5D0600611E10 /* aula2710App.swift */,
 				E1812123290B5D0600611E10 /* ContentView.swift */,
+				E181214C290B65B300611E10 /* SUImagePickerView.swift */,
 				E1812125290B5D0600611E10 /* Assets.xcassets */,
 				E181212A290B5D0600611E10 /* Info.plist */,
 				E1812127290B5D0600611E10 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				E1812124290B5D0600611E10 /* ContentView.swift in Sources */,
 				E1812122290B5D0600611E10 /* aula2710App.swift in Sources */,
+				E181214D290B65B300611E10 /* SUImagePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
