@@ -32,26 +32,31 @@ struct ContentView: View {
             }
             .actionSheet(isPresented: $shouldPresentActionScheet){
              () -> ActionSheet in
-                ActionSheet(title: <#T##Text#>("Modo de escolha"), message:Text("Por favor escolha um método para mudar a imagem"),
-                            buttons: [ActionSheet.Button.default(Text("Camera"), action: {
-                                self.shouldPresentImagePicker = true
-                                self.shouldPresentCamera = true
-                               }),
-                            ActionSheet.Button.default(Text("Biblioteca de fotos"), action: {
-                                self.shouldPresentImagePicker = true
-                                self.shouldPresentCamera = false
-                            }),
-                            ActionSheet.Button.cancel()
-                            
+                ActionSheet(title:Text("Modo de escolha"), message: Text("Por favor escolha um método para mudar a imagem"), buttons: [
+                                ActionSheet.Button.default(Text("Camera"), action:{
+                                    self.shouldPresentImagePicker = true
+                                    self.shouldPresentCamera = true
+                                   }),
+                                ActionSheet.Button.default(Text("Biblioteca de fotos"), action: {
+                                    self.shouldPresentImagePicker = true
+                                    self.shouldPresentCamera = false
+                                }),
+                                ActionSheet.Button.cancel()
                 ])
-            }
-        
-    }
-            
+        }
+    
+   }
+
 }
+                
+
+                
+              
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+
+
