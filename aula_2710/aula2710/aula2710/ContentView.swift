@@ -28,7 +28,7 @@ struct ContentView: View {
                 self.shouldPresentActionScheet = true
             }
             .sheet(isPresented: $shouldPresentImagePicker){
-                // acoes a serem feiras
+                SUImagePickerVIew(sourceType: self.shouldPresentCamera ? .camera : .photoLibrary, image: self.$image, isPresent: self.$shouldPresentImagePicker)
             }
             .actionSheet(isPresented: $shouldPresentActionScheet){
              () -> ActionSheet in
