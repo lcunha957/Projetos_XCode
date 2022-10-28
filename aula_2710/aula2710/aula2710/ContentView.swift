@@ -17,9 +17,13 @@ struct ContentView: View {
     
     
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+        image!
+            .resizable()
+            .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+            .frame(width: 300, height: 300)
+            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+       }
 }
 
 struct ContentView_Previews: PreviewProvider {
