@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var image: Image? = Image("chefinho")
+    // Menu de opções
+    @State private var shouldPresentImagePicker = false
+    @State private var shouldPresentActionScheet = false
+    @State private var shouldPresentCamera = false
+    
+    
     var body: some View {
         Text("Hello, world!")
             .padding()
