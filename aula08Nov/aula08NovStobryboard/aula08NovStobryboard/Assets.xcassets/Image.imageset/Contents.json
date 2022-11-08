@@ -6,10 +6,12 @@
       "scale" : "1x"
     },
     {
+      "filename" : "icons8-corgi-80.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "icons8-cavalo-marinho-80.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
