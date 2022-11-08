@@ -43,6 +43,14 @@
                                     <color key="titleShadowColor" systemColor="separatorColor"/>
                                 </state>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="lep-HJ-JRF">
+                                <rect key="frame" x="58" y="531" width="114" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="E9H-Ac-TIT">
+                                <rect key="frame" x="213" y="548" width="142" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
@@ -63,6 +71,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Image" width="40" height="40"/>
+        <image name="Image-1" width="20" height="20"/>
         <namedColor name="Color">
             <color red="0.096658294202787931" green="1" blue="0.30304789248383068" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
