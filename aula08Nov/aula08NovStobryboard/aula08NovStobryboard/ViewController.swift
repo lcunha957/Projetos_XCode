@@ -12,18 +12,26 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
 
-    @IBOutlet var buttonMudarConfig: [UIButton]!
     
+    @IBAction func Mudar (_sender: UIButton){
+        print("Clicou...");
+        imgCorgi.image = UIImage(named: "jacare")
+    }
     
     @IBOutlet var sideBarBtn: [UIBarButtonItem]!
     
-    @IBOutlet var opc1btn: [UIImageView]!
+    @IBOutlet var imgCorgi: [UIImageView]!
     
-    @IBOutlet var opc2btn: [UIImageView]!
+    @IBOutlet var jacare: [UIImageView]!
+    
+    
 }
+
+
 
 
 

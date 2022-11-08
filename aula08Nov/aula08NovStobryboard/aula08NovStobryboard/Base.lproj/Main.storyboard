@@ -32,25 +32,28 @@
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="21"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zC5-8C-wWc">
-                                <rect key="frame" x="108" y="400" width="202" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.22389386808203293" green="0.034682518243351002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="23"/>
-                                <color key="tintColor" red="0.96862745098039216" green="0.75675802777072709" blue="0.32130525882366867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Mudar config botão">
-                                    <color key="titleColor" systemColor="systemRedColor"/>
-                                    <color key="titleShadowColor" systemColor="separatorColor"/>
-                                </state>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="lep-HJ-JRF">
                                 <rect key="frame" x="58" y="531" width="114" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" link="YES" image="YES" selected="YES" playsSound="YES" keyboardKey="YES" staticText="YES" summaryElement="YES" updatesFrequently="YES" searchField="YES" startsMediaSession="YES" adjustable="YES" allowsDirectInteraction="YES" causesPageTurn="YES" header="YES"/>
+                                </accessibility>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="E9H-Ac-TIT">
-                                <rect key="frame" x="213" y="548" width="142" height="105"/>
+                                <rect key="frame" x="212" y="548" width="142" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" link="YES" image="YES" selected="YES" playsSound="YES" keyboardKey="YES" staticText="YES" summaryElement="YES" updatesFrequently="YES" searchField="YES" startsMediaSession="YES" allowsDirectInteraction="YES" causesPageTurn="YES" header="YES"/>
+                                </accessibility>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ie-cC-v0D">
+                                <rect key="frame" x="123" y="352" width="204" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" link="YES" image="YES" selected="YES" playsSound="YES" keyboardKey="YES" staticText="YES" summaryElement="YES" updatesFrequently="YES" searchField="YES" startsMediaSession="YES" allowsDirectInteraction="YES" causesPageTurn="YES" header="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
@@ -61,7 +64,6 @@
                     </toolbarItems>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outletCollection property="buttonMudarConfig" destination="zC5-8C-wWc" collectionClass="NSMutableArray" id="2ie-66-vuJ"/>
                         <outletCollection property="sideBarBtn" destination="lXA-g9-cv2" collectionClass="NSMutableArray" id="NrB-pz-lQG"/>
                         <outletCollection property="opc1btn" destination="lep-HJ-JRF" collectionClass="NSMutableArray" id="eiv-s2-2EJ"/>
                         <outletCollection property="opc2btn" destination="E9H-Ac-TIT" collectionClass="NSMutableArray" id="h8j-17-fqD"/>
@@ -81,17 +83,11 @@
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="separatorColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

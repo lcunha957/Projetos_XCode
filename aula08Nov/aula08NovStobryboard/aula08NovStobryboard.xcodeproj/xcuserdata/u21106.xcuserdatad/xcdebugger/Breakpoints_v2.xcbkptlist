@@ -14,10 +14,42 @@
             filePath = "aula08NovStobryboard/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "ViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B1553CF1-5F9C-4909-A348-8EA16BAB2671 - 8fef150dacf8738"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula08NovStobryboard.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; aula08NovStobryboard.ViewController"
+                  moduleName = "aula08NovStobryboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/u21106/Documents/Android/GitHub_Lunara/Projetos_XCode/Projetos_XCode/aula08Nov/aula08NovStobryboard/aula08NovStobryboard/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "B1553CF1-5F9C-4909-A348-8EA16BAB2671 - d277033b6a11b072"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula08NovStobryboard.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;aula08NovStobryboard.ViewController&gt;"
+                  moduleName = "aula08NovStobryboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/u21106/Documents/Android/GitHub_Lunara/Projetos_XCode/Projetos_XCode/aula08Nov/aula08NovStobryboard/aula08NovStobryboard/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -30,10 +62,42 @@
             filePath = "aula08NovStobryboard/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "ViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5C49926F-B390-4404-B48A-272187DE5BE6 - 8fef150dacf8738"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula08NovStobryboard.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; aula08NovStobryboard.ViewController"
+                  moduleName = "aula08NovStobryboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/u21106/Documents/Android/GitHub_Lunara/Projetos_XCode/Projetos_XCode/aula08Nov/aula08NovStobryboard/aula08NovStobryboard/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "5C49926F-B390-4404-B48A-272187DE5BE6 - d277033b6a11b072"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aula08NovStobryboard.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;aula08NovStobryboard.ViewController&gt;"
+                  moduleName = "aula08NovStobryboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/u21106/Documents/Android/GitHub_Lunara/Projetos_XCode/Projetos_XCode/aula08Nov/aula08NovStobryboard/aula08NovStobryboard/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
