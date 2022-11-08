@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     
     @IBOutlet var sideBarBtn: [UIBarButtonItem]!
     
+    @IBOutlet var opc1btn: [UIImageView]!
+    
+    @IBOutlet var opc2btn: [UIImageView]!
 }
 
 
