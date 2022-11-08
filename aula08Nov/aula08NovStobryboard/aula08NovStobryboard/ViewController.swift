@@ -15,5 +15,10 @@ class ViewController: UIViewController {
     }
 
 
+    @IBOutlet var buttonMudarConfig: [UIButton]!
+    
+    
+    @IBOutlet var sideBarBtn: [UIBarButtonItem]!
+    
 }
 

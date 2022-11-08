@@ -48,6 +48,14 @@
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                         <color key="tintColor" name="Color"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="lXA-g9-cv2"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outletCollection property="buttonMudarConfig" destination="zC5-8C-wWc" collectionClass="NSMutableArray" id="2ie-66-vuJ"/>
+                        <outletCollection property="sideBarBtn" destination="lXA-g9-cv2" collectionClass="NSMutableArray" id="NrB-pz-lQG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
