@@ -25,10 +25,17 @@ class ViewController: UIViewController {
         Cor1.backgroundColor = swiftColor
     }
     
-    @IBAction func gBlue(_ sender: Any) {
+    @IBAction func gGreen(_ sender: UISlider) {
+        let  swiftColor = UIColor(red: 0, green: 0, blue: CGFloat(sender.value)/255/255, alpha: 1)
+        Cor1.backgroundColor = swiftColor
     }
     
-    @IBAction func gGreen(_ sender: Any) {
+    @IBAction func gBlue(_ sender: UISlider) {
+        let  swiftColor = UIColor(red: 0, green: 0, blue: CGFloat(sender.value)/255, alpha: 1)
+        Cor1.backgroundColor = swiftColor
+  
     }
+    
+    
 }
 
